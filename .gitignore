@@ -1,16 +1,12 @@
 # Environments
 .env
-.venv
-venv
-env
+venv/
+env/
 
-# Dependencies
-node_modules/
+# Frontend Dependencies
+Frontend/node_modules/
+Frontend/dist/
 
 # Python
-__pycache__/
+**/__pycache__/
 *.py[cod]
-
-# Build
-dist/
-build/
