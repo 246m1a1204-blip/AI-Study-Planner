@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --color-classic-dark: #020617;
+  --color-glass: rgba(255, 255, 255, 0.05);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top right, #1e1b4b, #020617) !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  width: 100%;
+}
